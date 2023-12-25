@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Picker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <label for="imageDropdown">Pilih Gambar:</label>
+    <select id="imageDropdown" onchange="displayImage()">
+      <option value="images1">Gambar 1</option>
+      <option value="images2">Gambar 2</option>
+      <option value="images3">Gambar 3</option>
+      <option value="images4">Gambar 4</option>
+      <option value="images5">Gambar 5</option>
+      <option value="images6">Gambar 6</option>
+      <!-- Tambahkan opsi tambahan sesuai kebutuhan -->
+    </select>
+
+    <div id="imageContainer">
+      <img id="displayImage" src="images/Gambar 1.jpg" alt="Displayed Image">
+      <img id="displayImage" src="images/Gambar 2.jpg" alt="Displayed Image">
+      <img id="displayImage" src="images/Gambar 3.jpg" alt="Displayed Image">
+      <img id="displayImage" src="images/Gambar 4.jpg" alt="Displayed Image">
+      <img id="displayImage" src="images/Gambar 5.jpg" alt="Displayed Image">
+      <img id="displayImage" src="images/Gambar 6.jpg" alt="Displayed Image">
+    </div>
+
+    <div id="alertBox"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
